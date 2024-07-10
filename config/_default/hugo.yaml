@@ -1,0 +1,33 @@
+baseURL: https://marcfischer.org/
+languageCode: en-us
+title: Marcs Blog
+theme: nightfall
+enableEmoji: True
+params:
+  title: Marcs Blog
+  user: Marc
+  hostname: https://marcfischer.org
+  author:
+    email: hello@marcfischer.org
+    name: Marc
+  social:
+    - key: 0
+      name: github
+      url: https://github.com/marc-fischer
+      target: _blank
+      aria: Github Profile
+  styles:
+    color: blue
+  subtitle: This is a subtitle
+  footerHtml: "<a href='/contact'>Contact</a> | <a href='/posts/this-page'>About this page</a>"
+menus:
+  header:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: About
+      pageRef: /about/
+      weight: 20
+    - name: Posts
+      pageRef: /posts/
+      weight: 30

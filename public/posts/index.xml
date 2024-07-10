@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Marcs Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Marcs Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>hello@marcfischer.org (Marc)</managingEditor>
+    <webMaster>hello@marcfischer.org (Marc)</webMaster>
+    <lastBuildDate>Wed, 10 Jul 2024 20:46:41 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 10 Jul 2024 20:46:41 +0200</pubDate><author>hello@marcfischer.org (Marc)</author>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Introduction This side is a test. Check Check.</description>
+    </item>
+    <item>
+      <title>About - This Page</title>
+      <link>http://localhost:1313/posts/this-page/</link>
+      <pubDate>Wed, 10 Jul 2024 20:00:00 +0200</pubDate><author>hello@marcfischer.org (Marc)</author>
+      <guid>http://localhost:1313/posts/this-page/</guid>
+      <description>This page is built using the static side generator Hugo.&#xA;The theme is based of Nightfall&#xA;It is hosted using github pages.</description>
+    </item>
+  </channel>
+</rss>
