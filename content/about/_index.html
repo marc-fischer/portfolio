@@ -1,0 +1,63 @@
+---
+title: About Me
+description: "Learn more about me"
+date: 2024-07-10T20:59:04+02:00
+---
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item-text {
+  padding: 10px;
+  flex: 60%;
+}
+
+.flex-item-picture {
+  padding: 10px;
+  flex: 40%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item-picture {
+  visibility: hidden;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div class="flex-item-text">
+    I'm Marc, full name Marc-Andre Fischer, born on 20.09.1995 in Kaiserslautern in Germany. 
+    After growing up in Höringen, a small village close Kaiserslautern, i moved to Würzburg, Bavaria for my first work experiences. <br>
+    Growing into my Profession i decided early to extend my knwoledge by achieving a Bachelor Professional (staatlich geprüfter Techniker) in a remote study. <br>
+    Meanwhile i iterated through several roles in my worklife, starting as a repair technician, growing into the role of a teamleader, getting started in technical purchasing beginning in March of 2020 with the start of a global pandemic and the biggest crisis the electronic components supply chain has ever seen. <br>
+    Finally i transitioned smoothly into the role of the deputy team lead for 10 hardware engineers and responsible for product change management.<br>
+    Looking to grow further i moved in the end of 2021 towards the farest north of germany, to Flensburg. Since then i work with an international team as product owner and application engineer. Overseeing the full product lifecycle from defining the requirements together with experienced engineers and shaping the product according customers needs, proceeding as the customers voice within the product development phase and closing of with the succesfull implementation in the final product. <br>
+    I recently started a Bachelors Degree in June 2024 to get more in-depth knowledge about Electronics Engineering, enabdling to grow further into the specialist roles. <br>
+    <br>
+    <br>
+    While not working or studying, i love to experiment in the kitchen and start an evening cooking session for hours to cook for friends and family. <br>
+    My 3D Print Farm fulfills my needs for creative solutions, allowing me to generate most of the ideas for gadgets and extensions. 
+    <br>
+    <br>
+    Want to get to know me even better? Check my CV or consider getting in <a href="/contact">touch</a>!
+  </div>
+  <div class="flex-item-picture"><img src="images/marc-rund.png"></div>
+</div>
+
+</body>
+</html>
