@@ -1,7 +1,7 @@
 ---
 title: CV
 date: 2024-07-12T13:49:04+02:00
-draft: True
+draft: False
 ---
 More Details on who i am?  
 No problem.  
