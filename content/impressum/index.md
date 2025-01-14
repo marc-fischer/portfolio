@@ -6,8 +6,8 @@ draft: False
 ---
 ##### Betreiber
 Marc-Andre Fischer  
-Osterlücke 4  
-DE 24944 Flensburg
+Schloßstr. 6 
+DE 24103 Kiel
 
 
 ##### Elektronische Kontaktaufnahme
